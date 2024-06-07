@@ -3,30 +3,46 @@
 ## Overview
 
 This database application is designed to manage the records and operations of a surgical department. It offers functionality to add and delete patients, surgeons, appointments, and operations, ensuring data integrity and consistency across the system. The application also handles key error cases to maintain the integrity of the database.
+![image](https://github.com/mai-m0hamed/Surgery-database-website-application/assets/115077795/4bc909fc-2c5d-4929-b605-b81968e885ba)
 
 ## Features
 
 ### Patient Management
 - **Add Patient**
   - Attributes: `patient_id`, `first_name`, `last_name`, `birth_date`, `gender`, `address`, `phone`
+
 - **Delete Patient**
   - Allows deletion of patient records based on `patient_id`.
+- **View Patient appoitment**
+  - Allows viewing patient appointment based on `patient_id`.
+
+ ![image](https://github.com/mai-m0hamed/Surgery-database-website-application/assets/115077795/edc5d429-f212-40c2-a53f-13a3393988aa)
+
+![image](https://github.com/mai-m0hamed/Surgery-database-website-application/assets/115077795/0252e1c0-5602-460f-aaaf-dbcedc59e6c1)
+
+![image](https://github.com/mai-m0hamed/Surgery-database-website-application/assets/115077795/c3c13bf0-39b9-43fb-b485-de3cd76a1b7d)
 
 ### Surgeon Management
 - **Add Surgeon**
   - Attributes: `surgeon_id`, `first_name`, `last_name`, `birth_date`, `gender`, `address`, `phone`, `email`
 - **Delete Surgeon**
   - Allows deletion of surgeon records based on `surgeon_id`.
-
+- **View Surgeon appointment**
+  - Allows viewing of surgeon appointment based on `surgeon_id`.
+    
 ### Appointment Management
 - **Add Appointment**
   - Attributes: `appointment_id`, `patient_id`, `surgeon_id`, `operation_id`, `appointments_date`, `operationroom_id`
 - **Delete Appointment**
   - Allows deletion of appointment records based on `appointment_id`.
+    
+![image](https://github.com/mai-m0hamed/Surgery-database-website-application/assets/115077795/31d10bd0-f8a0-4842-9fdf-75cfcff73607)
 
 ### Operation Management
 - **Add Operation**
   - Attributes: `operation_id`, `operation`, `description`, `cost`
+    
+![image](https://github.com/mai-m0hamed/Surgery-database-website-application/assets/115077795/c87c4cde-7edd-40aa-8d89-fd212fe0a046)
 
 ## Error Handling
 
